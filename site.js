@@ -59,6 +59,6 @@ movies.forEach(movies => {
 document.addEventListener("DOMContentLoaded", function () {
     const key = "It's a secret to everybody."; 
     
-    localStorage.setItem(key, 'The Legend of Zelda says Hi!');
+    localStorage.setItem(key, 'The Legend of Zelda ');
 
 });
