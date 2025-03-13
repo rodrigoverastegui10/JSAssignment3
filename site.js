@@ -1,5 +1,3 @@
-const key = "It's a secret to everybody."
-localStorage.setItem(key, 'JavaScript is easy')
 
 const movies = [
     {
@@ -57,3 +55,10 @@ movies.forEach(movies => {
         ul.append(genreLi)
     })
 })
+
+document.addEventListener("DOMContentLoaded", function () {
+    const key = "It's a secret to everybody."; 
+    
+    localStorage.setItem(key, 'The Legend of Zelda says Hi!');
+
+});
