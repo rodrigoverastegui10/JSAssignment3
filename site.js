@@ -1,4 +1,5 @@
-
+const key = "It's a secret to everybody."
+localStorage.setItem(key, 'JavaScript is easy')
 
 const movies = [
     {
